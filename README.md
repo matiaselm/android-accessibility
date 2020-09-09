@@ -1,3 +1,3 @@
 # android-accessibility
 
-School lab to learn android accessibility possibilities
+School lab to learn about android accessibility possibilities
