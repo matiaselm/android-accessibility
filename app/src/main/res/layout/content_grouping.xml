@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="@string/txt"
+        android:textSize="30sp"
+        android:theme="@style/Theme.MyApp" />
+
+    <LinearLayout
+        android:id="@+id/fcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/happybtn"
+            android:text="@string/happybtn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/sadbtn"
+            android:text="@string/sadbtn" />
+    </LinearLayout>
+</LinearLayout>
+
